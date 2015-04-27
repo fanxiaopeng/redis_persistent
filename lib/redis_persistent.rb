@@ -1,2 +1,1 @@
-require 'thread'
-require 'redis/persistent'
+require 'counter/persistent'
