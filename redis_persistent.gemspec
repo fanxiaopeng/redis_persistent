@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split($/).reject{|e|e[0]=='.'}
   s.homepage    = 'https://github.com/fanxiaopeng/redis_persistent'
 
-  s.add_dependency 'redis', '>= 3.0.0'
-  s.add_dependency 'redis-objects', '>= 1.0.0'
+  s.add_runtime_dependency 'redis', '~> 3.0', '>= 3.0.0'
+  s.add_runtime_dependency 'redis-objects', '~> 1.0', '>= 1.0.0'
 end
